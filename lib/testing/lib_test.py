@@ -56,3 +56,5 @@ class TestCar:
         '''has a method "fill_up_tank" that returns "filling up!"'''
         my_car = Car(36, 4)
         assert(my_car.fill_up_tank() == "filling up!")
+
+Car.__bases__
